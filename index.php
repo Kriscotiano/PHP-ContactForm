@@ -16,15 +16,15 @@
                     </section>
 
                     <section class="form-section">
-                        <input type="text" name="name" placeholder="Full Name" required>
+                        <input type="text" name="name" placeholder="Full Name" required="required" />
                     </section>
 
                     <section class="form-section">
-                        <input type="email" name="email" placeholder="Email" required>
+                        <input type="email" name="email" placeholder="Email" required="required" />
                     </section>
 
                     <section class="form-section">
-                        <textarea type="text" name="msg" placeholder="Enter Message" required></textarea>
+                        <textarea type="text" name="msg" placeholder="Enter Message..." required="required"></textarea>
                     </section>
 
                     <section class="form-section">
