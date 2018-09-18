@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 18px sans-serif;
+}
+
+.container {
+    height: 100vh;
+    margin: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .form-box {
+    height: 600px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.container .form-box #contact {
+    display: grid;
+    width: 400px;
+    margin: 0 15px;
+}
+
+#contact .header {
+    align-self: center;
+    justify-self: center;
+}
+
+.form-section {
+    align-self: center;
+}
+
+.form-section textarea {
+    height: 200px;
+}
+
+.form-section textarea, 
+.form-section button {
+    width: 100%;
+}
