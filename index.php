@@ -1,3 +1,10 @@
+<?php 
+    //Allow the config
+    define ('__CONFIG__', true);
+    //Require the config
+    require_once "parts/config.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -16,15 +23,15 @@
                     </section>
 
                     <section class="form-section">
-                        <input type="text" name="name" placeholder="Full Name" required="required" />
+                        <input type="text" id="name" name="name" placeholder="Full Name" required="required" />
                     </section>
 
                     <section class="form-section">
-                        <input type="email" name="email" placeholder="Email" required="required" />
+                        <input type="email" id="email" name="email" placeholder="Email" required="required" />
                     </section>
 
                     <section class="form-section">
-                        <textarea type="text" name="msg" placeholder="Enter Message..." required="required"></textarea>
+                        <textarea type="text" id="msg" name="msg" placeholder="Enter Message..." required="required"></textarea>
                     </section>
 
                     <section class="form-section">
@@ -34,5 +41,6 @@
             </div>
         </div>
 
+        <?php require_once "parts/footer.php"?>
     </body>
 </html>

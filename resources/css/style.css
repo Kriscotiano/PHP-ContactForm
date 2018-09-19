@@ -51,6 +51,7 @@
 .form-section input,
 .form-section textarea, 
 .form-section button {
+    height: 32px;
     width: 100%;
     border-radius: 5px;
     background: #f8f8f8;
